@@ -1,0 +1,6 @@
+1: Kamatera
+2: Digital Ocean
+3: InfinityFree 
+4: ProFreeHost 
+5: AeonFree
+    
