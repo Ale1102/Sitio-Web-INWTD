@@ -6,9 +6,11 @@
                 <div class="col-lg-4 mb-4">
                     <h3 class="h5 mb-3" style="color: #ffcc00;">Instituto Nacional Walter Thilo Deininger</h3>
                     <address class="mb-0">
-                        <p><i class="fas fa-map-marker-alt me-2"></i> Calle Principal, Ciudad, El Salvador</p>
-                        <p><i class="fas fa-phone me-2"></i> (503) 2222-3333</p>
-                        <p><i class="fas fa-envelope me-2"></i> contacto@inwtd.edu.sv</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Avenida Cuscatlan, Cojutepeque Cuscatlan, El Salvador</p>
+                        <p><i class="fas fa-phone me-2"></i> (503) 2372-0220</p>
+                        <p><i class="fas fa-fax me-2"></i> (503) 2372-4482</p>
+                        <p><i class="fa-brands fa-whatsapp me-2"></i> (503) 7603-4668 (Solo Mensajes)</p>
+                        <p><i class="fas fa-envelope me-2"></i> inwtd11792@gmail.com</p>
                     </address>
                 </div>
                 
@@ -20,16 +22,17 @@
                         <li><a href="<?php echo $root_path; ?>pages/nosotros.php" class="text-white">Nosotros</a></li>
                         <li><a href="<?php echo $root_path; ?>pages/oferta-academica.php" class="text-white">Oferta Académica</a></li>
                         <li><a href="<?php echo $root_path; ?>pages/noticias.php" class="text-white">Noticias</a></li>
-                        
+                        <li><a href="<?php echo $root_path; ?>pages/galeria.php" class="text-white">Nuestro Campus</a></li>
+                        <li><a href="<?php echo $root_path; ?>pages/proceso-graduacion.php" class="text-white">Proceso de Graduación</a></li>
                     </ul>
                 </div>
                 
-                <!-- Programas -->
+                <!-- Oferta Academica -->
                 <div class="col-lg-3 col-md-4 mb-4">
-                    <h4 class="h6 mb-3"  style="color: #ffcc00;">Programas</h4>
+                    <h4 class="h6 mb-3"  style="color: #ffcc00;">Oferta Academica</h4>
                     <ul class="list-unstyled footer-links">
                         <li><a href="<?php echo $root_path; ?>pages/bachillerato-general.php" class="text-white">Bachillerato General</a></li>
-                        <li><a href="<?php echo $root_path; ?>pages/bachillerato-contabilidad.php" class="text-white">Bachillerato en Contabilidad</a></li>
+                        <li><a href="<?php echo $root_path; ?>pages/bachillerato-contable.php" class="text-white">Bachillerato en Contabilidad</a></li>
                         <li><a href="<?php echo $root_path; ?>pages/bachillerato-salud.php" class="text-white">Bachillerato en Salud</a></li>
                          <li><a href="<?php echo $root_path; ?>pages/bachillerato-agroindustrias.php" class="text-white">Bachillerato en agroindustria</a></li>
                           <li><a href="<?php echo $root_path; ?>pages/bachillerato-electrico.php" class="text-white">Bachillerato en Sistemas Electricos</a></li>
@@ -40,19 +43,15 @@
                     </ul>
                 </div>
                 
-                <!-- Boletín informativo -->
+                <!-- Redes Sociales -->
                 <div class="col-lg-3 col-md-4 mb-4">
-                    <h4 class="h6 mb-3" style="color: #ffcc00;">Boletín Informativo</h4>
-                    <p>Suscríbete para recibir noticias y actualizaciones.</p>
-                    <a href=https://docs.google.com/forms/d/e/1FAIpQLSeVXTJVVjOHDx_F1cn-Bt83g65Nmx32Be1RQ_cP9nJI97EC_Q/viewform?usp=sharing&ouid=102989814245585467037" target="_blank" class="btn btn-primary w-100 mb-3">
-                        <i class="fas fa-envelope me-2"></i>Suscribirse al Boletín
-                    </a>
-                    <p class="small text-muted">Haz clic para acceder al formulario de suscripción</p>
+                    <h4 class="h6 mb-3" style="color: #ffcc00;">Nuestras redes Sociales</h4>
+                    
+                    <p class="small text-muted"></p>
                     <div class="social-links mt-3">
-                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                         <a href="https://www.facebook.com/share/16ZgXFR6L3/?mibextid=wwXIfr" class="text-white me-2" target="_blank"><i class="fab fa-facebook" rel="noopener noreferrer"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=50376034668 " class="text-white me-2" target="_blank"><i class="fab fa-whatsapp" rel="noopener noreferrer"></i></a>
+                         <a href="#" class="text-white me-2" target="_blank"><i class="fa-brands fa-instagram" rel="noopener noreferrer"></i></a>
                     </div>
                 </div>
             </div>

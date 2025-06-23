@@ -25,8 +25,8 @@ include '../includes/header.php';
                     <a href="#plan-estudios" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
                         <i class="fas fa-book me-2"></i>Ver Plan de Estudios
                     </a>
-                    <a href="#contacto" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-envelope me-2"></i>Solicitar Información
+                     <a href="admisiones.php"  class="btn btn-lg" style="background-color: #f7f7f7; color: #000000;">
+                       <i class="fas fa-user me-2"></i>Proceso de Admisión
                     </a>
                 </div>
             </div>
@@ -50,7 +50,7 @@ include '../includes/header.php';
                             <small>Materias por año</small>
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
     </div>
@@ -219,18 +219,19 @@ include '../includes/header.php';
 </section>
 
 <!-- Perfil del egresado y continuidad académica -->
-<section class="graduate-profile py-5">
-    <div class="container">
+<section class="graduate-profile py-5" >
+    <div class="container" >
         <div class="row">
-            <div class="col-lg-6 mb-4 mb-lg-0">
+           
+                <div class="col-lg-6 mb-4 mb-lg-0" >
                 <h2 class="section-title">Perfil del Egresado</h2>
                 <p class="lead">Al finalizar el Bachillerato General serás capaz de:</p>
                 
-                <div class="skills-list">
-                    <div class="skill-item mb-3">
-                        <div class="d-flex align-items-start">
-                            <div class="skill-icon me-3 mt-1">
-                                <i class="fas fa-university" style="color: #ffcc00;"></i>
+                <div class="skills-list" >
+                    <div class="skill-item mb-3" >
+                        <div class="d-flex" >
+                            <div class="skill-icon me-3 d-flex align-items-center" style="min-width: 24px;">
+                                <i class="fas fa-university fa-fw" style="color: #ffcc00;"></i>
                             </div>
                             <div>
                                 <h4 class="h6 mb-1">Continuar Estudios Superiores</h4>
@@ -240,21 +241,21 @@ include '../includes/header.php';
                     </div>
                     
                     <div class="skill-item mb-3">
-                        <div class="d-flex align-items-start">
-                            <div class="skill-icon me-3 mt-1">
-                                <i class="fas fa-lightbulb" style="color: #ffcc00;"></i>
+                        <div class="d-flex">
+                            <div class="skill-icon me-3 d-flex align-items-center" style="min-width: 24px;">
+                                <i class="fas fa-lightbulb fa-fw" style="color: #ffcc00;"></i>
                             </div>
                             <div>
                                 <h4 class="h6 mb-1">Pensamiento Crítico</h4>
-                                <p class="mb-0">Analizar, evaluar y resolver problemas de manera sistemática.</p>
+                                <p  class="mb-0">Analizar, evaluar y resolver problemas de manera sistemática</p>
                             </div>
                         </div>
                     </div>
                     
                     <div class="skill-item mb-3">
-                        <div class="d-flex align-items-start">
-                            <div class="skill-icon me-3 mt-1">
-                                <i class="fas fa-comments" style="color: #ffcc00;"></i>
+                        <div class="d-flex">
+                            <div class="skill-icon me-3 d-flex align-items-center" style="min-width: 24px;">
+                                <i class="fas fa-comments fa-fw" style="color: #ffcc00;"></i>
                             </div>
                             <div>
                                 <h4 class="h6 mb-1">Comunicación Efectiva</h4>
@@ -264,9 +265,9 @@ include '../includes/header.php';
                     </div>
                     
                     <div class="skill-item mb-3">
-                        <div class="d-flex align-items-start">
-                            <div class="skill-icon me-3 mt-1">
-                                <i class="fas fa-search" style="color: #ffcc00;"></i>
+                        <div class="d-flex">
+                            <div class="skill-icon me-3 d-flex align-items-center" style="min-width: 24px;">
+                                <i class="fas fa-search fa-fw" style="color: #ffcc00;"></i>
                             </div>
                             <div>
                                 <h4 class="h6 mb-1">Investigación</h4>
@@ -275,6 +276,7 @@ include '../includes/header.php';
                         </div>
                     </div>
                 </div>
+            
             </div>
             <div class="col-lg-6">
                 <h2 class="section-title">Carreras Universitarias Populares</h2>

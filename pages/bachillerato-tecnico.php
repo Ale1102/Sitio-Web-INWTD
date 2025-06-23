@@ -12,7 +12,7 @@ include '../includes/header.php';
 ?>
 
 <!-- Hero Section para Carreras Técnicas -->
-<section class="technical-careers-hero text-white py-5" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../assets/img/carreras-tecnicas-hero.jpg'); background-size: cover; background-position: center;">
+<section class="technical-careers-hero text-white py-5" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../assets/img/logo-walter.png'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
@@ -155,7 +155,7 @@ include '../includes/header.php';
                                     </div>
                                 </div>
                                 
-                                <a href="bachillerato-contabilidad.php" class="btn btn-outline-primary mt-auto">
+                                <a href="bachillerato-contable.php" class="btn btn-outline-primary mt-auto">
                                     Ver Detalles <i class="fas fa-arrow-right ms-1"></i>
                                 </a>
                             </div>
@@ -436,58 +436,9 @@ include '../includes/header.php';
     </div>
 </section>
 
-<!-- Empresas aliadas -->
-<section class="partner-companies py-5 bg-light">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title">Empresas Aliadas</h2>
-            <p class="lead">Nuestros estudiantes realizan prácticas profesionales en empresas líderes del sector</p>
-        </div>
-        
-        <div class="row g-4">
-            <div class="col-md-3 col-6 text-center">
-                <div class="partner-logo bg-white p-3 rounded shadow-sm">
-                    <img src="../assets/img/empresa1-logo.png" alt="Empresa 1" class="img-fluid" style="max-height: 60px;">
-                </div>
-            </div>
-            <div class="col-md-3 col-6 text-center">
-                <div class="partner-logo bg-white p-3 rounded shadow-sm">
-                    <img src="../assets/img/empresa2-logo.png" alt="Empresa 2" class="img-fluid" style="max-height: 60px;">
-                </div>
-            </div>
-            <div class="col-md-3 col-6 text-center">
-                <div class="partner-logo bg-white p-3 rounded shadow-sm">
-                    <img src="../assets/img/empresa3-logo.png" alt="Empresa 3" class="img-fluid" style="max-height: 60px;">
-                </div>
-            </div>
-            <div class="col-md-3 col-6 text-center">
-                <div class="partner-logo bg-white p-3 rounded shadow-sm">
-                    <img src="../assets/img/empresa4-logo.png" alt="Empresa 4" class="img-fluid" style="max-height: 60px;">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Llamada a la acción -->
-<section class="cta-section py-5" style="background-color: #000000;">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 text-white">
-                <h2 class="section-title text-white mb-3">¿Listo para comenzar tu carrera técnica?</h2>
-                <p class="lead mb-0">Únete a miles de egresados exitosos que han transformado su futuro con nuestras carreras técnicas.</p>
-            </div>
-            <div class="col-lg-4 text-lg-end">
-                <a href="../pages/contacto.php" class="btn btn-lg me-3" style="background-color: #ffcc00; color: #000000;">
-                    <i class="fas fa-envelope me-2"></i>Solicitar Información
-                </a>
-                <a href="../pages/admisiones.php" class="btn btn-outline-light btn-lg">
-                    <i class="fas fa-graduation-cap me-2"></i>Proceso de Admisión
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+
+
 
 <?php include '../includes/footer.php'; ?>
 

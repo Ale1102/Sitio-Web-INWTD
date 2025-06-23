@@ -1,0 +1,224 @@
+{
+  "descripcion_general": "El Instituto Nacional Walter Thilo Deininger cuenta con instalaciones diseñadas para brindar una educación técnica y académica de calidad. Nuestro campus está equipado con laboratorios especializados y espacios recreativos que favorecen el aprendizaje integral de nuestros estudiantes.",
+  "estadisticas": {
+    "aulas": 40,
+    "laboratorios": 5,
+    "estudiantes": 1850,
+    "docentes": 52
+  },
+  "caracteristicas": [
+    {
+      "titulo": "Laboratorios Especializados",
+      "descripcion": "Contamos con laboratorios equipados para cada especialidad técnica, permitiendo el aprendizaje práctico y hands-on.",
+      "icono": "fas fa-flask"
+    },
+    {
+      "titulo": "Biblioteca",
+      "descripcion": "Biblioteca con acceso a recursos físicos para apoyo académico.",
+      "icono": "fas fa-book"
+    },
+    {
+      "titulo": "Espacios Recreativos",
+      "descripcion": "Áreas verdes, canchas deportivas y espacios de esparcimiento para el desarrollo integral.",
+      "icono": "fas fa-tree"
+    }
+  ],
+  "lugares_importantes": [
+    {
+      "nombre": "Dirección",
+      "descripcion": "Oficina principal del instituto donde se toman las decisiones administrativas y se atienden asuntos institucionales importantes.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-user-tie",
+      "ubicacion": "Edificio Principal - Planta Alta",
+      "horario": "Lunes a Viernes: 7:00 AM - 4:00 PM",
+      "servicios": [
+        "Atención a padres de familia",
+        "Reuniones institucionales",
+        "Gestión administrativa",
+        "Coordinación académica"
+      ]
+    },
+    {
+      "nombre": "Secretaría",
+      "descripcion": "Centro de atención estudiantil para trámites académicos, certificaciones y gestión de documentos oficiales.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-clipboard-list",
+      "ubicacion": "Edificio Principal - Planta Baja",
+      "horario": "Lunes a Viernes: 7:00 AM - 4:30 PM",
+      "servicios": [
+        "Certificaciones académicas",
+        "Constancias de estudio",
+        "Trámites de matrícula",
+        "Información general"
+      ]
+    },
+    {
+      "nombre": "Biblioteca",
+      "descripcion": "Centro de recursos académicos con amplia colección bibliográfica y espacios de estudio individual y grupal.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-book-open",
+      "ubicacion": "Edificio Académico - Segunda Planta",
+      "horario": "Lunes a Viernes: 7:00 AM - 5:00 PM",
+      "servicios": [
+        "Préstamo de libros",
+        "Salas de estudio grupal",
+        "Recursos bibliográficos",
+        "Área de lectura silenciosa"
+      ]
+    },
+    {
+      "nombre": "Salón de Usos Múltiples",
+      "descripcion": "Amplio espacio para eventos institucionales, ceremonias de graduación, conferencias y actividades culturales.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-theater-masks",
+      "ubicacion": "Edificio Central",
+      "horario": "Disponible según programación",
+      "servicios": [
+        "Eventos institucionales",
+        "Ceremonias de graduación",
+        "Conferencias académicas",
+        "Actividades culturales"
+      ]
+    },
+    {
+      "nombre": "Chalet",
+      "descripcion": "Edificio histórico que alberga oficinas administrativas especiales y salas de reuniones para el personal docente y administrativo.",
+      "imagen": "assets/img/logo-walter.png",
+      "icono": "fas fa-home",
+      "ubicacion": "Área Norte del Campus",
+      "horario": "Lunes a Viernes: 7:00 AM - 4:00 PM",
+      "servicios": ["Oficinas administrativas", "Salas de reuniones", "Coordinación docente", "Archivo institucional"]
+    },
+    {
+      "nombre": "Portón Principal",
+      "descripcion": "Acceso principal al instituto con control de seguridad y área de recepción para visitantes y estudiantes.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-door-open",
+      "ubicacion": "Entrada Principal del Campus",
+      "horario": "Lunes a Viernes: 6:30 AM - 6:00 PM",
+      "servicios": ["Control de acceso", "Información general", "Registro de visitantes", "Seguridad del campus"]
+    },
+    {
+      "nombre": "Cancha de Fútbol",
+      "descripcion": "Campo deportivo principal para la práctica de fútbol, educación física y eventos deportivos intercolegiales.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-futbol",
+      "ubicacion": "Área Deportiva - Zona Sur",
+      "horario": "Lunes a Viernes: 7:00 AM - 5:00 PM",
+      "servicios": [
+        "Clases de educación física",
+        "Entrenamientos deportivos",
+        "Torneos intercolegiales",
+        "Actividades recreativas"
+      ]
+    },
+    {
+      "nombre": "Cancha de Baloncesto",
+      "descripcion": "Cancha techada para la práctica de baloncesto, voleibol y otras actividades deportivas bajo techo.",
+      "imagen": "assets/img/salud.png",
+      "icono": "fas fa-basketball-ball",
+      "ubicacion": "Área Deportiva - Zona Central",
+      "horario": "Lunes a Viernes: 7:00 AM - 5:00 PM",
+      "servicios": ["Práctica de baloncesto", "Clases de voleibol", "Actividades recreativas", "Eventos deportivos"]
+    }
+  ],
+  "instalaciones_especialidad": [
+    {
+      "nombre": "Laboratorio de Sistemas Eléctricos",
+      "descripcion": "Laboratorio completamente equipado para prácticas de instalaciones eléctricas, automatización y control.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-bolt",
+      "equipos": [
+        "Tableros de control eléctrico",
+        "Multímetros digitales",
+        "Osciloscopios",
+        "Simuladores de circuitos",
+        "Herramientas especializadas"
+      ]
+    },
+    {
+      "nombre": "Laboratorio de Arquitectura",
+      "descripcion": "Espacio diseñado para el desarrollo de proyectos arquitectónicos con software especializado.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-drafting-compass",
+      "equipos": [
+        "Computadoras con software CAD",
+        "Mesas de dibujo técnico",
+        "Plotters de gran formato",
+        "Maquetas y materiales",
+        "Instrumentos de medición"
+      ]
+    },
+    {
+      "nombre": "Laboratorio de Agroindustria",
+      "descripcion": "Instalaciones para prácticas de procesamiento de alimentos y control de calidad.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-seedling",
+      "equipos": [
+        "Equipos de procesamiento",
+        "Balanzas de precisión",
+        "pH-metros",
+        "Equipos de conservación",
+        "Material de laboratorio"
+      ]
+    },
+    {
+      "nombre": "Laboratorio de Contabilidad",
+      "descripcion": "Aula especializada con software contable y simuladores empresariales.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-calculator",
+      "equipos": [
+        "Computadoras con software contable",
+        "Calculadoras especializadas",
+        "Simuladores empresariales",
+        "Material didáctico",
+        "Proyector multimedia"
+      ]
+    },
+    {
+      "nombre": "Biblioteca y Centro de Recursos",
+      "descripcion": "Espacio de estudio con acceso a recursos físicos y digitales para todas las especialidades.",
+      "imagen": "assets/img/Evento.png",
+      "icono": "fas fa-book-open",
+      "equipos": [
+        "Computadoras con internet",
+        "Colección bibliográfica",
+        "Bases de datos digitales",
+        "Salas de estudio grupal",
+        "Área de lectura silenciosa"
+      ]
+    }
+  ],
+  "servicios": [
+    {
+      "nombre": "Cafetería",
+      "descripcion": "Servicio de alimentación con menús balanceados y precios accesibles para estudiantes.",
+      "icono": "fas fa-utensils",
+      "horario": "7:00 AM - 4:00 PM"
+    },
+    {
+      "nombre": "Orientación Psicológica",
+      "descripcion": "Apoyo psicológico y orientación vocacional para estudiantes.",
+      "icono": "fas fa-user-md",
+      "horario": "Lunes a Viernes 8:00 AM - 4:00 PM"
+    },
+    {
+      "nombre": "Enfermería",
+      "descripcion": "Atención médica básica y primeros auxilios para la comunidad estudiantil.",
+      "icono": "fas fa-first-aid",
+      "horario": "7:00 AM - 5:00 PM"
+    },
+    {
+      "nombre": "Actividades Deportivas",
+      "descripcion": "Programas deportivos y recreativos para el desarrollo físico integral.",
+      "icono": "fas fa-futbol",
+      "horario": "Lunes a Viernes 3:00 PM - 5:00 PM"
+    }
+  ],
+  "ubicacion": {
+    "direccion": "Km. 15 Carretera a Santa Tecla, La Libertad, El Salvador",
+    "telefono": "(503) 2372-0220",
+    "email": "inwtd11792@gmail.com",
+    "horarios": "Lunes a Viernes: 7:00 AM - 5:00 PM, Sábados: 7:00 AM - 12:00 PM"
+  }
+}

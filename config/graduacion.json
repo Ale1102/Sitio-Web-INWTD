@@ -1,0 +1,125 @@
+{
+  "proceso_activo": true,
+  "mensaje_inactivo": "El proceso de graduación 2025 estará disponible a partir de septiembre. Mantente atento a nuestros anuncios oficiales.",
+  "fecha_apertura": "Septiembre 2025",
+
+  "proxima_graduacion": {
+    "fecha": "15 de Noviembre, 2025",
+    "lugar": "Auditorio Principal INWTD"
+  },
+
+  "requisitos": [
+    {
+      "titulo": "Aprobar Todas las Materias",
+      "descripcion": "Haber aprobado todas las asignaturas del plan de estudios con nota mínima de 6.0",
+      "icono": "fas fa-book-open",
+      "estado": "obligatorio"
+    },
+    {
+      "titulo": "Servicio Social Completo",
+      "descripcion": "Completar las 120 horas de servicio social comunitario requeridas",
+      "icono": "fas fa-hands-helping",
+      "estado": "obligatorio"
+    },
+    {
+      "titulo": "Proyecto de Graduación",
+      "descripcion": "Presentar y aprobar el proyecto final de especialidad",
+      "icono": "fas fa-project-diagram",
+      "estado": "obligatorio"
+    },
+   
+    {
+      "titulo": "Examen de Bachillerato AVANZO",
+      "descripcion": "Aprobar el examen nacional AVANZO del Ministerio de Educación",
+      "icono": "fas fa-clipboard-check",
+      "estado": "obligatorio"
+    },
+    {
+      "titulo": "Fotografías para Diploma",
+      "descripcion": "Entregar fotografías en formato requerido para el diploma oficial",
+      "icono": "fas fa-camera",
+      "estado": "requerido"
+    }
+  ],
+
+  "ceremonias": [
+    {
+      "nombre": "Ceremonia Matutina",
+      "fecha": "15 de Noviembre, 2025",
+      "hora": "8:00 AM",
+      "lugar": "Auditorio Principal INWTD",
+      "secciones": "1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 1-7, 1-8",
+      "color": "#ffcc00",
+      "icono": "fas fa-sun"
+    },
+    {
+      "nombre": "Ceremonia Vespertina",
+      "fecha": "15 de Noviembre, 2025",
+      "hora": "2:00 PM",
+      "lugar": "Auditorio Principal INWTD",
+      "secciones": "1-9, 1-10, 1-11, 1-12, 1-13, 1-14, 1-15, 1-16",
+      "color": "#000000",
+      "icono": "fas fa-moon"
+    }
+  ],
+
+  "tarjetas": [
+    {
+      "tipo": "Invitaciónes Para Graduación",
+      "descripcion": "Tarjetas conmemorativas para invitados a la ceremonia de graduación",
+      "cantidad": "1",
+      "precio": "4.50"
+    }
+  ],
+
+  "proceso": [
+    {
+      "titulo": "Verificación de Requisitos",
+      "descripcion": "La secretaría académica verifica que hayas cumplido con todos los requisitos de graduación",
+      "plazo": "2 semanas antes"
+    },
+    {
+      "titulo": "Solicitud de Graduación",
+      "descripcion": "Presenta la solicitud formal de graduación en la secretaría con todos los documentos",
+      "plazo": "1 mes antes"
+    },
+    {
+      "titulo": "Pago de Aranceles",
+      "descripcion": "Realiza el pago de los aranceles de graduación y obtén tu solvencia",
+      "plazo": "3 semanas antes"
+    },
+    {
+      "titulo": "Ensayo de Graduación",
+      "descripcion": "Asiste al ensayo general de la ceremonia para conocer el protocolo",
+      "plazo": "1 semana antes"
+    },
+    {
+      "titulo": "Entrega de Togas",
+      "descripcion": "Recoge tu toga y birrete en la fecha y hora asignada",
+      "plazo": "2 días antes"
+    },
+    {
+      "titulo": "Ceremonia de Graduación",
+      "descripcion": "Participa en la ceremonia oficial de graduación según tu horario asignado",
+      "plazo": "Día de graduación"
+    },
+    {
+      "titulo": "Entrega de Diplomas",
+      "descripcion": "Recibe tu diploma oficial al finalizar la ceremonia",
+      "plazo": "Día de graduación"
+    }
+  ],
+
+  "informacion_adicional": {
+    "contacto_graduacion": {
+      "telefono": "(503) 2372-0220",
+      "email": "inwtd11792@gmail.com",
+      "horario_atencion": "Lunes a Viernes 7:00 AM - 4:00 PM"
+    },
+    "costo_aranceles": {
+      "graduacion": "$25.00",
+      "diploma": "$15.00",
+      "toga_alquiler": "$10.00"
+    }
+  }
+}

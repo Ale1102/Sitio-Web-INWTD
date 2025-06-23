@@ -25,8 +25,8 @@ include '../includes/header.php';
                     <a href="#plan-estudios" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
                         <i class="fas fa-book me-2"></i>Ver Plan de Estudios
                     </a>
-                    <a href="#contacto" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-envelope me-2"></i>Solicitar Información
+                     <a href="admisiones.php"  class="btn btn-lg" style="background-color: #f7f7f7; color: #000000;">
+                       <i class="fas fa-user me-2"></i>Proceso de Admisión
                     </a>
                 </div>
             </div>
@@ -282,29 +282,84 @@ include '../includes/header.php';
             </div>
         </div>
         
-        <div class="text-center mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="stat-item">
-                        <div class="h2 fw-bold" style="color: #000000;">$750+</div>
-                        <p class="mb-0">Salario promedio inicial</p>
+       
+    </div>
+</section>
+
+<!-- Requisitos de ingreso -->
+<section class="requirements py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Requisitos de Ingreso</h2>
+                    <p class="lead">Para formar parte de nuestra comunidad, necesitas:</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="requirement-card bg-white p-4 rounded shadow-sm h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="requirement-icon me-3">
+                                    <i class="fas fa-graduation-cap fa-2x" style="color: #ffcc00;"></i>
+                                </div>
+                                <h4 class="h5 mb-0">Académicos</h4>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Noveno grado aprobado</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Promedio mínimo de 7.0</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Examen de admisión aprobado</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Entrevista personal</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="requirement-card bg-white p-4 rounded shadow-sm h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="requirement-icon me-3">
+                                    <i class="fas fa-file-alt fa-2x" style="color: #ffcc00;"></i>
+                                </div>
+                                <h4 class="h5 mb-0">Documentos</h4>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Certificado de noveno grado</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Partida de nacimiento</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>DUI (si es mayor de edad)</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>2 fotografías tamaño cédula</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="stat-item">
-                        <div class="h2 fw-bold" style="color: #000000;">25%</div>
-                        <p class="mb-0">Crecimiento del sector</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="stat-item">
-                        <div class="h2 fw-bold" style="color: #000000;">4</div>
-                        <p class="mb-0">Meses promedio para encontrar empleo</p>
+                
+                <div class="text-center mt-4">
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <strong>Proceso de admisión:</strong> Las inscripciones inician en octubre y el examen de admisión se realiza en noviembre.
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+<!-- Llamada a la acción final -->
+<section class="final-cta py-5 bg-light" >
+    <div class="container" >
+        <div class="row align-items-center" >
+            <div class="col-lg-8" >
+                <h2 class="section-title mb-3">¿Listo para electrificar tu futuro?</h2>
+                <p class="lead mb-0">Únete al Bachillerato Técnico en Sistemas Eléctricos y Energía Renovable y domina las tecnologías que impulsan el mundo. ¡Conviértete en un experto en energía sostenible con alta demanda laboral!</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a href="../pages/admisiones.php" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
+                    <i class="fas fa-rocket me-2"></i>Iniciar Proceso de Admisión
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php include '../includes/footer.php'; ?>

@@ -25,8 +25,8 @@ include '../includes/header.php';
                     <a href="#plan-estudios" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
                         <i class="fas fa-book me-2"></i>Ver Plan de Estudios
                     </a>
-                    <a href="#contacto" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-envelope me-2"></i>Solicitar Información
+                     <a href="admisiones.php"  class="btn btn-lg" style="background-color: #f7f7f7; color: #000000;">
+                       <i class="fas fa-user me-2"></i>Proceso de Admisión
                     </a>
                 </div>
             </div>
@@ -232,4 +232,127 @@ include '../includes/header.php';
     </div>
 </section>
 
+<section class="job-opportunities py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Campo Laboral</h2>
+            <p class="lead">Oportunidades en diseño, construcción y planificación urbana</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="job-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="job-icon mb-3">
+                        <i class="fas fa-building fa-3x" style="color: #ffcc00;"></i>
+                    </div>
+                    <h4 class="h5">Estudios de Arquitectura</h4>
+                    <p class="small">Dibujante técnico, asistente de diseño</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="job-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="job-icon mb-3">
+                        <i class="fas fa-hard-hat fa-3x" style="color: #ffcc00;"></i>
+                    </div>
+                    <h4 class="h5">Constructoras</h4>
+                    <p class="small">Supervisor de obra, técnico en planos</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="job-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="job-icon mb-3">
+                        <i class="fas fa-city fa-3x" style="color: #ffcc00;"></i>
+                    </div>
+                    <h4 class="h5">Municipalidades</h4>
+                    <p class="small">Técnico en urbanismo, planificación territorial</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="job-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="job-icon mb-3">
+                        <i class="fas fa-pencil-ruler fa-3x" style="color: #ffcc00;"></i>
+                    </div>
+                    <h4 class="h5">Continuidad Académica</h4>
+                    <p class="small">Arquitectura, Ingeniería Civil, Diseño Urbano</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="requirements py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Requisitos de Ingreso</h2>
+                    <p class="lead">Para estudiar Arquitectura, necesitas:</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="requirement-card bg-white p-4 rounded shadow-sm h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="requirement-icon me-3">
+                                    <i class="fas fa-graduation-cap fa-2x" style="color: #ffcc00;"></i>
+                                </div>
+                                <h4 class="h5 mb-0">Académicos</h4>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Noveno grado aprobado</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Promedio mínimo de 7.0</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Examen de admisión aprobado</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Entrevista personal</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="requirement-card bg-white p-4 rounded shadow-sm h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="requirement-icon me-3">
+                                    <i class="fas fa-file-alt fa-2x" style="color: #ffcc00;"></i>
+                                </div>
+                                <h4 class="h5 mb-0">Documentos</h4>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Certificado de noveno grado</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>Partida de nacimiento</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>DUI (si es mayor de edad)</li>
+                                <li class="mb-2"><i class="fas fa-check me-2" style="color: #ffcc00;"></i>2 fotografías tamaño cédula</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <strong>Proceso de admisión:</strong> Inscripciones abiertas hasta el 15 de noviembre. Prueba de aptitud el 25 de noviembre.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="final-cta py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h2 class="section-title mb-3">¡Diseña el futuro con tus ideas!</h2>
+                <p class="lead mb-0">Aprende a crear espacios funcionales y sostenibles mientras desarrollas habilidades técnicas en dibujo, maquetas y software arquitectónico.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a href="../pages/admisiones.php" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
+                    <i class="fas fa-rocket me-2"></i>Iniciar Admisión
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 <?php include '../includes/footer.php'; ?>

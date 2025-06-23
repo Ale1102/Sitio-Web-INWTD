@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($page_title) ? $page_title . ' - Instituto Walter Thilo Deininger' : 'Instituto Walter Thilo Deininger'; ?></title>
     
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -13,6 +14,12 @@
     
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="<?php echo $root_path; ?>assets/css/styles.css">
+
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="<?php echo $root_path; ?>assets/img/logo-walter.png">
+<link rel="shortcut icon" type="image/png" href="<?php echo $root_path; ?>assets/img/logo-walter.png">
+<link rel="apple-touch-icon" href="<?php echo $root_path; ?>assets/img/logo-walter.png">
+
     
     <style>
     /* Ocultar texto del instituto en móviles */
@@ -20,7 +27,7 @@
         .navbar-brand span {
             display: none;
         }
-        
+            
         /* Dropdown para móviles */
         .dropdown-menu {
             display: none;
@@ -51,15 +58,17 @@
     </style>
 </head>
 <body>
+
+
+
     <!-- Barra superior con información de contacto -->
     <div class="top-bar bg-dark text-white py-2">
         <div class="container">
-         
-                <div class="col-md-6 text-end">
-                    <a href="https://www.facebook.com/share/16ZgXFR6L3/?mibextid=wwXIfr" class="text-white me-2" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-                </div>
+            <div class="d-flex justify-content-end">
+                <a href="https://www.facebook.com/share/16ZgXFR6L3/?mibextid=wwXIfr" class="text-white me-2" target="_blank"><i class="fab fa-facebook" rel="noopener noreferrer"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=50376034668 " class="text-white me-2" target="_blank"><i class="fab fa-whatsapp" rel="noopener noreferrer"></i></a>
+                <a href="#" class="text-white me-2" target="_blank"><i class="fa-brands fa-instagram" rel="noopener noreferrer"></i></a>
+                
             </div>
         </div>
     </div>
@@ -102,7 +111,7 @@
                             <a class="nav-link <?php echo ($current_page == 'noticias') ? 'active' : ''; ?>" href="<?php echo $root_path; ?>pages/noticias.php">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo ($current_page == 'galeria') ? 'active' : ''; ?>" href="<?php echo $root_path; ?>pages/galeria.php">Nuestros Campus</a>
+                            <a class="nav-link <?php echo ($current_page == 'galeria') ? 'active' : ''; ?>" href="<?php echo $root_path; ?>pages/nuestro-campus.php">Nuestro Campus</a>
                         </li>
                        
                     </ul>

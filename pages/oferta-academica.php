@@ -14,7 +14,7 @@ include '../includes/header.php';
         <div class="row">
             <div class="col-md-8">
                 <h1 class="display-4 fw-bold">Oferta Académica</h1>
-                <p class="lead"> Conoce nuestra oferta académica y las carreras que ofrecemos.</p>
+                <p class="lead"> Conoce nuestra oferta académica y las carreras que ofrecemos.  </p>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@ include '../includes/header.php';
                     <h4 class="h5">Bachillerato General</h4>
                     <p class="small text-muted mb-2">2 años • Presencial</p>
                     <p>Formación integral que prepara para la educación superior con sólidos conocimientos en ciencias y humanidades.</p>
-                       <a href="pages/bachillerato-general.php" class="btn btn-sm btn-outline-primary">Más información</a>
+                       <a href="../pages/bachillerato-general.php" class="btn btn-sm btn-outline-primary">Más información</a>
                 </div>
             </div>
             
@@ -54,7 +54,7 @@ include '../includes/header.php';
                     <h4 class="h5">Bachillerato Técnico Vocacional Administrativo Contable</h4>
                     <p class="small text-muted mb-2">3 años • Presencial</p>
                     <p>Formación especializada en contabilidad, administración y finanzas empresariales.</p>
-                      <a href="pages/bachillerato-contable.php" class="btn btn-sm btn-outline-primary">Más información</a>
+                      <a href="../pages/bachillerato-contable.php" class="btn btn-sm btn-outline-primary">Más información</a>
                 </div>
             </div>
             
@@ -67,7 +67,7 @@ include '../includes/header.php';
                     <h4 class="h5">Bachillerato Técnico Productivo Sistemas Eléctricos y Energía Renovable</h4>
                     <p class="small text-muted mb-2">3 años • Presencial</p>
                     <p>Formación en instalaciones eléctricas, energías renovables y sistemas de automatización.</p>
-                     <a href="pages/bachillerato-electrico.php" class="btn btn-sm btn-outline-primary">Más información</a>
+                     <a href="../pages/bachillerato-electrico.php" class="btn btn-sm btn-outline-primary">Más información</a>
                 </div>
             </div>
             
@@ -80,7 +80,7 @@ include '../includes/header.php';
                     <h4 class="h5">Bachillerato Técnico Productivo Atención Primaria en Salud y Bienestar Social</h4>
                     <p class="small text-muted mb-2">3 años • Presencial</p>
                     <p>Formación en cuidados básicos de salud, primeros auxilios y bienestar comunitario.</p>
-                      <a href="pages/bachillerato-salud.php" class="btn btn-sm btn-outline-primary">Más información</a>
+                      <a href="../pages/bachillerato-salud.php" class="btn btn-sm btn-outline-primary">Más información</a>
                 </div>
             </div>
             
@@ -93,7 +93,7 @@ include '../includes/header.php';
                     <h4 class="h5">Bachillerato Técnico Vocacional en Arquitectura</h4>
                     <p class="small text-muted mb-2">3 años • Presencial</p>
                     <p>Formación en diseño arquitectónico, dibujo técnico y construcción sostenible.</p>
-                     <a href="pages/bachillerato-arquitectura.php" class="btn btn-sm btn-outline-primary">Más información</a>
+                     <a href="../pages/bachillerato-arquitectura.php" class="btn btn-sm btn-outline-primary">Más información</a>
                 </div>
             </div>
             
@@ -106,7 +106,7 @@ include '../includes/header.php';
                     <h4 class="h5">Bachillerato Técnico Vocacional en Agroindustrias</h4>
                     <p class="small text-muted mb-2">3 años • Presencial</p>
                     <p>Formación en procesamiento de alimentos, agricultura sostenible y gestión agroindustrial.</p>
-                      <a href="pages/bachillerato-agroindustrias.php" class="btn btn-sm btn-outline-primary">Más información</a>
+                      <a href="../pages/bachillerato-agroindustrias.php" class="btn btn-sm btn-outline-primary">Más información</a>
                 </div>
                 
             </div>

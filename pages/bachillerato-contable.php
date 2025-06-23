@@ -28,8 +28,8 @@ include '../includes/header.php';
                     <a href="#plan-estudios" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
                         <i class="fas fa-book me-2"></i>Ver Plan de Estudios
                     </a>
-                    <a href="#contacto" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-envelope me-2"></i>Solicitar Información
+                     <a href="admisiones.php"  class="btn btn-lg" style="background-color: #f7f7f7; color: #000000;">
+                       <i class="fas fa-user me-2"></i>Proceso de Admisión
                     </a>
                 </div>
             </div>
@@ -357,101 +357,11 @@ include '../includes/header.php';
             </div>
         </div>
         
-        <div class="text-center mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="stat-item">
-                        <div class="h2 fw-bold" style="color: #000000;">90%</div>
-                        <p class="mb-0">Inserción laboral</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="stat-item">
-                        <div class="h2 fw-bold" style="color: #000000;">$700+</div>
-                        <p class="mb-0">Salario promedio inicial</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="stat-item">
-                        <div class="h2 fw-bold" style="color: #000000;">4</div>
-                        <p class="mb-0">Meses promedio para encontrar empleo</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 
-<!-- Testimonios de estudiantes -->
-<section class="testimonials py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title">Lo que dicen nuestros estudiantes</h2>
-        </div>
-        
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="testimonial-card bg-white p-4 rounded shadow-sm h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="../assets/img/student-ana.jpg" alt="Ana Rodríguez" class="rounded-circle me-3" width="60">
-                        <div>
-                            <h5 class="mb-0">Ana Rodríguez</h5>
-                            <small class="text-muted">Egresada 2022</small>
-                        </div>
-                    </div>
-                    <p class="mb-3">"Los conocimientos en software contable me dieron ventaja al buscar trabajo. Ahora trabajo en una empresa de auditoría y me va muy bien."</p>
-                    <div class="rating">
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 mb-4">
-                <div class="testimonial-card bg-white p-4 rounded shadow-sm h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="../assets/img/student-luis.jpg" alt="Luis Pérez" class="rounded-circle me-3" width="60">
-                        <div>
-                            <h5 class="mb-0">Luis Pérez</h5>
-                            <small class="text-muted">Estudiante 3er año</small>
-                        </div>
-                    </div>
-                    <p class="mb-3">"Las prácticas profesionales me permitieron aplicar todo lo aprendido. La empresa donde hice mi práctica me contrató antes de graduarme."</p>
-                    <div class="rating">
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 mb-4">
-                <div class="testimonial-card bg-white p-4 rounded shadow-sm h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="../assets/img/student-karla.jpg" alt="Karla Martínez" class="rounded-circle me-3" width="60">
-                        <div>
-                            <h5 class="mb-0">Karla Martínez</h5>
-                            <small class="text-muted">Egresada 2021</small>
-                        </div>
-                    </div>
-                    <p class="mb-3">"Los profesores son excelentes profesionales que comparten su experiencia real. Ahora tengo mi propio despacho contable."</p>
-                    <div class="rating">
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- Requisitos de ingreso -->
 <section class="requirements py-5 bg-light">
@@ -460,7 +370,7 @@ include '../includes/header.php';
             <div class="col-lg-8 mx-auto">
                 <div class="text-center mb-5">
                     <h2 class="section-title">Requisitos de Ingreso</h2>
-                    <p class="lead">Para formar parte de nuestro programa necesitas:</p>
+                    <p class="lead">Para formar parte de nuestra comunidad, necesitas:</p>
                 </div>
                 
                 <div class="row g-4">
@@ -510,65 +420,6 @@ include '../includes/header.php';
     </div>
 </section>
 
-<!-- Formulario de contacto -->
-<section id="contacto" class="contact-form py-5" style="background-color: #000000;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="text-center mb-5">
-                    <h2 class="section-title text-white">¿Interesado en esta carrera?</h2>
-                    <p class="lead text-white">Solicita más información y te contactaremos pronto</p>
-                </div>
-                
-                <div class="card border-0 shadow-lg">
-                    <div class="card-body p-5">
-                        <form id="career-contact-form">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label for="nombre" class="form-label">Nombre completo *</label>
-                                    <input type="text" class="form-control" id="nombre" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="telefono" class="form-label">Teléfono *</label>
-                                    <input type="tel" class="form-control" id="telefono" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="email" class="form-label">Correo electrónico *</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="edad" class="form-label">Edad</label>
-                                    <input type="number" class="form-control" id="edad" min="15" max="25">
-                                </div>
-                                <div class="col-12">
-                                    <label for="institucion" class="form-label">Institución donde estudias actualmente</label>
-                                    <input type="text" class="form-control" id="institucion">
-                                </div>
-                                <div class="col-12">
-                                    <label for="mensaje" class="form-label">Mensaje o consulta</label>
-                                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Cuéntanos qué te interesa saber sobre la carrera..."></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="acepto-terminos" required>
-                                        <label class="form-check-label" for="acepto-terminos">
-                                            Acepto los <a href="../pages/terminos.php" style="color: #ffcc00;">términos y condiciones</a> y autorizo el tratamiento de mis datos personales.
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-lg px-5" style="background-color: #ffcc00; color: #000000;">
-                                        <i class="fas fa-paper-plane me-2"></i>Enviar Solicitud
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Llamada a la acción final -->
 <section class="final-cta py-5 bg-light">

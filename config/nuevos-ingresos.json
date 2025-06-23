@@ -1,0 +1,145 @@
+
+{
+  "informacion_general": [
+    {
+      "titulo": "Bienvenida a Nuevos Estudiantes",
+      "descripcion": "Información importante para estudiantes de nuevo ingreso sobre el inicio de clases, horarios y materiales necesarios.",
+      "archivo": "assets/docs/bienvenida-nuevos-estudiantes-2026.pdf"
+    },
+    {
+      "titulo": "Calendario Académico 2026",
+      "descripcion": "Calendario oficial con fechas importantes del año escolar 2026.",
+      "archivo": "assets/docs/calendario-academico-2026.pdf"
+    },
+    {
+      "titulo": "Manual de Convivencia",
+      "descripcion": "Normas y reglamentos que rigen la convivencia en nuestra institución educativa.",
+      "archivo": "assets/docs/manual-convivencia-2026.pdf"
+    },
+    {
+      "titulo": "Lista de Útiles Escolares",
+      "descripcion": "Materiales y útiles necesarios para el inicio del año escolar.",
+      "archivo": "assets/docs/lista-utiles-2026.pdf"
+    }
+  ],
+  "secciones": {
+    "1-1": {
+      "docente": "Lic. María Rodríguez",
+      "aula": "A-101",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-1.pdf"
+    },
+    "1-2": {
+      "docente": "Lic. Juan Pérez",
+      "aula": "A-102",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-2.pdf"
+    },
+    "1-3": {
+      "docente": "Lic. Ana Martínez",
+      "aula": "A-103",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-3.pdf"
+    },
+    "1-4": {
+      "docente": "Lic. Carlos López",
+      "aula": "A-104",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-4.pdf"
+    },
+    "1-5": {
+      "docente": "Lic. Laura Sánchez",
+      "aula": "A-105",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-5.pdf"
+    },
+    "1-6": {
+      "docente": "Lic. Roberto Gómez",
+      "aula": "A-106",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-6.pdf"
+    },
+    "1-7": {
+      "docente": "Lic. Patricia Hernández",
+      "aula": "B-101",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-7.pdf"
+    },
+    "1-8": {
+      "docente": "Lic. Miguel Ángel Díaz",
+      "aula": "B-102",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-8.pdf"
+    },
+    "1-9": {
+      "docente": "Lic. Sofía Ramírez",
+      "aula": "B-103",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-9.pdf"
+    },
+    "1-10": {
+      "docente": "Lic. Fernando Torres",
+      "aula": "B-104",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-10.pdf"
+    },
+    "1-11": {
+      "docente": "Arq. Gabriela Mendoza",
+      "aula": "C-101",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-11.pdf"
+    },
+    "1-12": {
+      "docente": "Ing. Alejandro Vargas",
+      "aula": "C-102",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-12.pdf"
+    },
+    "1-13": {
+      "docente": "Dra. Carmen Flores",
+      "aula": "D-101",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-13.pdf"
+    },
+    "1-14": {
+      "docente": "Lic. Javier Morales",
+      "aula": "D-102",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-14.pdf"
+    },
+    "1-15": {
+      "docente": "Lic. Verónica Castro",
+      "aula": "D-103",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-15.pdf"
+    },
+    "1-16": {
+      "docente": "Ing. Ricardo Aguilar",
+      "aula": "E-101",
+      "horario": "7:00 AM - 12:30 PM",
+      "archivo": "assets/docs/listado-seccion-1-16.pdf"
+    }
+  },
+  "informacion_adicional": [
+    {
+      "titulo": "Uniformes Escolares",
+      "descripcion": "Información detallada sobre los uniformes requeridos para cada especialidad y dónde adquirirlos.",
+      "archivo": "assets/docs/uniformes-2026.pdf"
+    },
+    {
+      "titulo": "Transporte Escolar",
+      "descripcion": "Opciones de transporte escolar disponibles para los estudiantes.",
+      "archivo": "assets/docs/transporte-escolar-2026.pdf"
+    },
+    {
+      "titulo": "Programa de Orientación",
+      "descripcion": "Información sobre el programa de orientación para estudiantes de nuevo ingreso.",
+      "archivo": "assets/docs/programa-orientacion-2026.pdf"
+    },
+    {
+      "titulo": "Actividades Extracurriculares",
+      "descripcion": "Listado de actividades extracurriculares disponibles para los estudiantes.",
+      "archivo": "assets/docs/actividades-extracurriculares-2026.pdf"
+    }
+  ]
+}

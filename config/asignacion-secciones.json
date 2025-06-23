@@ -1,0 +1,285 @@
+{
+  "informacion_general": "A continuación se presentan los listados de estudiantes asignados a cada sección para el proceso de admisión 2026. Por favor, verifique la sección asignada y descargue el listado correspondiente para confirmar su aula y horario de examen.",
+  "documentos_generales": [
+    {
+      "titulo": "Guía para el Examen de Admisión",
+      "descripcion": "Información importante sobre el proceso de examen, materiales necesarios y recomendaciones.",
+      "archivo": "assets/docs/guia-examen-admision-2026.pdf"
+    },
+    {
+      "titulo": "Calendario de Exámenes",
+      "descripcion": "Fechas y horarios de los exámenes por especialidad.",
+      "archivo": "assets/docs/calendario-examenes-2026.pdf"
+    }
+  ],
+  "especialidades": {
+    "Bachillerato General": [
+      {
+        "numero": "1-1",
+        "aula": "A-101",
+        "capacidad": 35,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/general/seccion-1-1.pdf"
+      },
+      {
+        "numero": "1-2",
+        "aula": "A-102",
+        "capacidad": 35,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/general/seccion-1-2.pdf"
+      },
+      {
+        "numero": "1-3",
+        "aula": "A-103",
+        "capacidad": 35,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/general/seccion-1-3.pdf"
+      },
+      {
+        "numero": "1-4",
+        "aula": "A-104",
+        "capacidad": 35,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/general/seccion-1-4.pdf"
+      },
+      {
+        "numero": "1-5",
+        "aula": "A-105",
+        "capacidad": 35,
+        "turno": "Vespertino",
+        "hora": "1:00 - 5:30 PM",
+        "archivo": "assets/docs/secciones/general/seccion-1-5.pdf"
+      },
+      {
+        "numero": "1-6",
+        "aula": "A-106",
+        "capacidad": 35,
+        "turno": "Vespertino",
+         "hora": "1:00 - 5:30 PM",
+        "archivo": "assets/docs/secciones/general/seccion-1-6.pdf"
+      },
+      {
+        "numero": "1-7",
+        "aula": "A-107",
+        "capacidad": 35,
+        "turno": "Vespertino",
+         "hora": "1:00 - 5:30 PM",
+        "archivo": "assets/docs/secciones/general/seccion-1-7.pdf"
+      },
+      {
+        "numero": "1-8",
+        "aula": "A-108",
+        "capacidad": 35,
+        "turno": "Vespertino",
+         "hora": "1:00 - 5:30 PM",
+        "archivo": "assets/docs/secciones/general/seccion-1-8.pdf"
+      }
+    ],
+    "Administrativo Contable": [
+      {
+        "numero": "1-9",
+        "aula": "B-201",
+        "capacidad": 30,
+        "turno": "Matutino",
+         "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/contable/seccion-1-9.pdf"
+      },
+      {
+        "numero": "1-10",
+        "aula": "B-202",
+        "capacidad": 30,
+        "turno": "Matutino",
+         "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/contable/seccion-1-10.pdf"
+      },
+      {
+        "numero": "1-11",
+        "aula": "B-203",
+        "capacidad": 30,
+        "turno": "Matutino",
+         "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/contable/seccion-1-11.pdf"
+      },
+      {
+        "numero": "1-12",
+        "aula": "B-204",
+        "capacidad": 30,
+        "turno": "Vespertino",
+         "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/contable/seccion-1-12.pdf"
+      },
+      {
+        "numero": "1-13",
+        "aula": "B-205",
+        "capacidad": 30,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/contable/seccion-1-13.pdf"
+      },
+      {
+        "numero": "1-14",
+        "aula": "B-206",
+        "capacidad": 30,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/contable/seccion-1-14.pdf"
+      }
+    ],
+    "Arquitectura": [
+      {
+        "numero": "1-15",
+        "aula": "C-301",
+        "capacidad": 25,
+        "turno": "Matutino",
+         "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/arquitectura/seccion-1-15.pdf"
+      },
+      {
+        "numero": "1-16",
+        "aula": "C-302",
+        "capacidad": 25,
+        "turno": "Matutino",
+          "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/arquitectura/seccion-1-16.pdf"
+      },
+      {
+        "numero": "1-17",
+        "aula": "C-303",
+        "capacidad": 25,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/arquitectura/seccion-1-17.pdf"
+      },
+      {
+        "numero": "1-18",
+        "aula": "C-304",
+        "capacidad": 25,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/arquitectura/seccion-1-18.pdf"
+      }
+    ],
+    "Sistemas Eléctricos": [
+      {
+        "numero": "1-19",
+        "aula": "D-401",
+        "capacidad": 25,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/electricos/seccion-1-19.pdf"
+      },
+      {
+        "numero": "1-20",
+        "aula": "D-402",
+        "capacidad": 25,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/electricos/seccion-1-20.pdf"
+      },
+      {
+        "numero": "1-21",
+        "aula": "D-403",
+        "capacidad": 25,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/electricos/seccion-1-21.pdf"
+      },
+      {
+        "numero": "1-22",
+        "aula": "D-404",
+        "capacidad": 25,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/electricos/seccion-1-22.pdf"
+      }
+    ],
+    "Atención Primaria en Salud": [
+      {
+        "numero": "1-23",
+        "aula": "E-501",
+        "capacidad": 30,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/salud/seccion-1-23.pdf"
+      },
+      {
+        "numero": "1-24",
+        "aula": "E-502",
+        "capacidad": 30,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/salud/seccion-1-24.pdf"
+      },
+      {
+        "numero": "1-25",
+        "aula": "E-503",
+        "capacidad": 30,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/salud/seccion-1-25.pdf"
+      },
+      {
+        "numero": "1-26",
+        "aula": "E-504",
+        "capacidad": 30,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/salud/seccion-1-26.pdf"
+      },
+      {
+        "numero": "1-27",
+        "aula": "E-505",
+        "capacidad": 30,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/salud/seccion-1-27.pdf"
+      },
+      {
+        "numero": "1-28",
+        "aula": "E-506",
+        "capacidad": 30,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/salud/seccion-1-28.pdf"
+      }
+    ],
+    "Agroindustria": [
+      {
+        "numero": "1-29",
+        "aula": "F-601",
+        "capacidad": 25,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/agroindustria/seccion-1-29.pdf"
+      },
+      {
+        "numero": "1-30",
+        "aula": "F-602",
+        "capacidad": 25,
+        "turno": "Matutino",
+        "hora": "7:00 AM - 11:45 AM",
+        "archivo": "assets/docs/secciones/agroindustria/seccion-1-30.pdf"
+      },
+      {
+        "numero": "1-31",
+        "aula": "F-603",
+        "capacidad": 25,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/agroindustria/seccion-1-31.pdf"
+      },
+      {
+        "numero": "1-32",
+        "aula": "F-604",
+        "capacidad": 25,
+        "turno": "Vespertino",
+        "hora": "1:00 PM - 5:30 PM",
+        "archivo": "assets/docs/secciones/agroindustria/seccion-1-32.pdf"
+      }
+    ]
+  }
+}

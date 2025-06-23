@@ -10,10 +10,15 @@ $current_page = "modalidad-educame";
 $root_path = "../";
 
 include '../includes/header.php';
+
+// Verificar que el archivo header existe
+if (!file_exists('../includes/header.php')) {
+    die('Error: No se puede cargar el archivo header.php');
+}
 ?>
 
 <!-- Hero Section Especial para EDUCAME -->
-<section class="career-hero text-white py-5" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../assets/img/educame-hero.jpg'); background-size: cover; background-position: center;">
+<section class="career-hero text-white py-5" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../assets/img/Event.png'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
@@ -33,9 +38,7 @@ include '../includes/header.php';
                     <a href="#requisitos" class="btn btn-lg" style="background-color: #ffcc00; color: #000000;">
                         <i class="fas fa-clipboard-check me-2"></i>Ver Requisitos
                     </a>
-                    <a href="#contacto" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-calendar-alt me-2"></i>Solicitar Información
-                    </a>
+                    
                 </div>
             </div>
             <div class="col-lg-4 text-center">
@@ -68,7 +71,7 @@ include '../includes/header.php';
 <section class="educame-info py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 mb-4 mb-lg-0">
+            <div class="col-lg-8 mb-4 mb-lg-0" style="text-align: justify; line-height: 1.6; margin-right: 20px;">
                 <h2 class="section-title">¿Qué es EDUCAME?</h2>
                 <p class="lead">EDUCAME (Educación Media para Adultos) es una modalidad flexible del Ministerio de Educación que permite a adultos trabajadores y madres solteras completar su bachillerato de manera presencial los sábados.</p>
                 
@@ -240,17 +243,10 @@ include '../includes/header.php';
                             <span><i class="fas fa-clock me-2" style="color: #ffcc00;"></i>Inicio de clases:</span>
                             <strong>7:00 AM</strong>
                         </div>
-                        <div class="schedule-item d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
-                            <span><i class="fas fa-coffee me-2" style="color: #ffcc00;"></i>Receso:</span>
-                            <strong>10:00 - 10:15 AM</strong>
-                        </div>
-                        <div class="schedule-item d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded">
-                            <span><i class="fas fa-utensils me-2" style="color: #ffcc00;"></i>Almuerzo:</span>
-                            <strong>12:00 - 1:00 PM</strong>
-                        </div>
+                       
                         <div class="schedule-item d-flex justify-content-between align-items-center p-3 bg-light rounded">
                             <span><i class="fas fa-clock me-2" style="color: #ffcc00;"></i>Fin de clases:</span>
-                            <strong>3:00 PM</strong>
+                            <strong>5:00 PM</strong>
                         </div>
                     </div>
                 </div>
@@ -312,79 +308,15 @@ include '../includes/header.php';
     </div>
 </section>
 
-<!-- Testimonios específicos -->
-<section class="testimonials py-5 bg-light">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title">Historias de Éxito</h2>
-            <p class="lead">Conoce las experiencias de nuestros estudiantes EDUCAME</p>
-        </div>
-        
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="testimonial-card bg-white p-4 rounded shadow-sm h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="../assets/img/student-ana.jpg" alt="Ana Martínez" class="rounded-circle me-3" width="60">
-                        <div>
-                            <h5 class="mb-0">Ana Martínez</h5>
-                            <small class="text-muted">Madre soltera, Egresada 2023</small>
-                        </div>
-                    </div>
-                    <p class="mb-3">"Como madre soltera, EDUCAME me dio la oportunidad de estudiar sin descuidar a mis hijos. Ahora trabajo en una oficina y tengo mejores ingresos."</p>
-                    <div class="rating">
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 mb-4">
-                <div class="testimonial-card bg-white p-4 rounded shadow-sm h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="../assets/img/student-roberto.jpg" alt="Roberto Pérez" class="rounded-circle me-3" width="60">
-                        <div>
-                            <h5 class="mb-0">Roberto Pérez</h5>
-                            <small class="text-muted">Trabajador, Egresado 2022</small>
-                        </div>
-                    </div>
-                    <p class="mb-3">"Trabajaba de lunes a viernes y los sábados estudiaba. Fue intenso pero valió la pena. Ahora soy supervisor en mi empresa."</p>
-                    <div class="rating">
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 mb-4">
-                <div class="testimonial-card bg-white p-4 rounded shadow-sm h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="../assets/img/student-carmen.jpg" alt="Carmen López" class="rounded-circle me-3" width="60">
-                        <div>
-                            <h5 class="mb-0">Carmen López</h5>
-                            <small class="text-muted">Estudiante actual</small>
-                        </div>
-                    </div>
-                    <p class="mb-3">"Los profesores entienden nuestras necesidades como adultos trabajadores. El ambiente es muy comprensivo y motivador."</p>
-                    <div class="rating">
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                        <i class="fas fa-star" style="color: #ffcc00;"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
-<?php include '../includes/footer.php'; ?>
 
+<?php
+// Verificar que el archivo footer existe
+if (file_exists('../includes/footer.php')) {
+    include '../includes/footer.php';
+} else {
+    echo '</body></html>';
+}
+?>

@@ -35,7 +35,7 @@ include '../includes/header.php';
                 
                
                     
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" style="text-align: justify; line-height: 1.6; font-size: 16px;>
                         <div class="greeting-content">
                             <div class="quote-icon mb-3">
                                 <i class="fas fa-quote-left fa-2x" style="color: #ffcc00;"></i>
@@ -70,21 +70,26 @@ include '../includes/header.php';
 <section class="history py-5 bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <h2 class="section-title">Nuestra Historia</h2>
-                <p>El Instituto Nacional Walter Thilo Deininger fue fundado en 1965 con el objetivo de brindar educación de calidad a los jóvenes de la región. Desde sus inicios, nuestra institución se ha destacado por su compromiso con la excelencia académica y la formación integral de los estudiantes.</p>
-                <p>A lo largo de más de cinco décadas, hemos formado a miles de profesionales que hoy contribuyen al desarrollo de nuestro país en diversos ámbitos. Nuestra trayectoria está marcada por importantes logros académicos, culturales y deportivos que nos posicionan como una institución de referencia en el sistema educativo nacional.</p>
-                <p>En 1985, el instituto fue reconocido por el Ministerio de Educación por su destacada labor educativa, y en 1995 se inauguraron las nuevas instalaciones que albergan actualmente a nuestra comunidad educativa.</p>
-                <p>Hoy, el Instituto Nacional Walter Thilo Deininger continúa su misión de formar ciudadanos íntegros, comprometidos con el desarrollo sostenible y preparados para enfrentar los desafíos del siglo XXI.</p>
+          <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2 class="section-title text-center mb-4">Nuestra Historia</h2>
+             <div class="history-content" style="text-align: justify; line-height: 1.6; font-size: 16px; margin-right: 20px; margin-left: 20px;">
+                    <p style="margin-bottom: 1.2em;">El Instituto Nacional Walter Thilo Deininger fue fundado en 1947 gracias a la visión filantrópica de Walter Thilo Deininger, quien donó los terrenos para su construcción en Cojutepeque. Desde sus inicios, el instituto se consolidó como un referente educativo, ofreciendo formación integral desde primaria hasta bachillerato.</p>
+        
+                    <p style="margin-bottom: 1.2em;">A lo largo de más de siete décadas, hemos formado a generaciones de profesionales en áreas técnicas y académicas, destacando por ser el único instituto público que imparte el Bachillerato Técnico en Arquitectura. Nuestra trayectoria incluye logros en competencias nacionales, innovación educativa y proyectos productivos como la planta procesadora de lácteos y cárnicos.</p>
+        
+                    <p style="margin-bottom: 1.2em;">En 2004, ampliamos nuestra oferta académica con especialidades en Sistemas, Salud y Agroindustria, respondiendo a las demandas del mercado laboral. Actualmente, contamos con 1,500 estudiantes y una infraestructura moderna que incluye laboratorios, talleres especializados y tecnología educativa.</p>
+        
+                    <p>Hoy, el Instituto Nacional Walter Thilo Deininger sigue comprometido con su misión: formar jóvenes competentes y ciudadanos responsables, honrando el legado de su benefactor y contribuyendo al desarrollo sostenible de El Salvador.</p>
+                </div>
             </div>
             <div class="col-lg-6">
                 <!-- Timeline actualizada con colores amarillo/dorado -->
-                <div class="history-timeline" style="border-left: 2px solid #ffcc00;">
+                <div class="history-timeline"  id="Historia" style="border-left: 2px solid #ffcc00;">
                     <div class="timeline-item">
                         <div class="timeline-year" style="background-color: #ffcc00; color: #000000;">1965</div>
                         <div class="timeline-content">
                             <h3 class="h5">Fundación del Instituto</h3>
-                            <p>El instituto abre sus puertas con una matrícula inicial de 120 estudiantes.</p>
+                            <p>El instituto abre sus puertas con una matrícula inicial de 120 estudiantes. </p>
                         </div>
                     </div>
                     <div class="timeline-item">
@@ -145,16 +150,16 @@ include '../includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="text-align: justify; line-height: 1.6; font-size: 16px;">
                 <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
+                    <div class="card-body p-4" >
+                        <div class="d-flex align-items-center mb-3" >
                             <div class="icon-box me-3" style="background-color: #ffcc00; color: #000000; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
                                 <i class="fas fa-eye"></i>
-                            </div>
+                            </div  >
                             <h2 class="card-title h3 mb-0">Visión</h2>
                         </div>
-                        <p class="card-text">Ser una institución educativa de referencia nacional, reconocida por su excelencia académica, innovación pedagógica y formación de ciudadanos íntegros, comprometidos con el desarrollo sostenible y la transformación positiva de la sociedad.</p>
+                        <p class="card-text" >Ser una institución educativa de referencia nacional, reconocida por su excelencia académica, innovación pedagógica y formación de ciudadanos íntegros, comprometidos con el desarrollo sostenible y la transformación positiva de la sociedad.</p>
                     </div>
                 </div>
             </div>
@@ -240,8 +245,8 @@ include '../includes/header.php';
                                     Teléfonos
                                 </h5>
                                 <p class="mb-0 ps-4">
-                                    <strong>Secretaría:</strong> (503) 2228-2516<br>
-                                    <strong>Dirección:</strong> (503) 2228-2517
+                                    <strong>Numeros de Administración:</strong>  2372-0220  - 2372-4482 <br>
+                                    <strong>Wathsapp:</strong>       7603-4668  (Solo Mensajes)
                                 </p>
                             </div>
                             
@@ -250,7 +255,7 @@ include '../includes/header.php';
                                     <i class="fas fa-envelope me-3" style="color: #ffcc00;"></i>
                                     Correo Electrónico
                                 </h5>
-                                <p class="mb-0 ps-4">info@institutowalterthilo.edu.sv</p>
+                                <p class="mb-0 ps-4">inwtd11792@gmail.com</p>
                             </div>
                             
                             <div class="mb-4">
@@ -259,8 +264,8 @@ include '../includes/header.php';
                                     Horarios de Atención
                                 </h5>
                                 <p class="mb-0 ps-4">
-                                    <strong>Lunes a Viernes:</strong> 7:00 AM - 4:00 PM<br>
-                                    <strong>Sábados:</strong> 7:00 AM - 12:00 PM
+                                    <strong>Lunes a Viernes:</strong> 7:00 AM - 3:30 PM<br>
+                                    <strong>Sábados:</strong> 7:00 AM - 11:00 PM
                                 </p>
                             </div>
                             
@@ -299,6 +304,7 @@ include '../includes/header.php';
         </div>
     </div>
 </section>
+
 
 
 

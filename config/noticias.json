@@ -1,0 +1,108 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Inicio del Proceso de Admisión 2026",
+      "resumen": "El Instituto Nacional Walter Thilo Deininger anuncia el inicio del proceso de admisión para el año académico 2026. Conoce todas las fechas importantes y requisitos.",
+      "contenido": "El Instituto Nacional Walter Thilo Deininger se complace en anunciar el inicio del proceso de admisión para el año académico 2026. Este proceso está dirigido a estudiantes que hayan completado su noveno grado y deseen continuar sus estudios de bachillerato en nuestras diversas especialidades técnicas y académicas.\n\nLas especialidades disponibles incluyen:\n- Bachillerato General\n- Administrativo Contable\n- Arquitectura\n- Sistemas Eléctricos\n- Atención Primaria en Salud\n- Agroindustria\n- Modalidad Flexible EDUCAME\n\nPara más información sobre fechas, requisitos y proceso de inscripción, visita nuestra página de admisiones o contacta directamente con nuestras oficinas.",
+      "fecha": "2025-10-15",
+      "autor": "Dirección Académica",
+      "categoria": "academico",
+      "color_categoria": "#2196F3",
+      "imagen": "assets/img/Evento.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Inauguración de Nuevos Laboratorios de Salud",
+      "resumen": "Se inauguraron los nuevos laboratorios especializados para la carrera de Atención Primaria en Salud, equipados con tecnología de última generación.",
+      "contenido": "El Instituto Nacional Walter Thilo Deininger inauguró oficialmente sus nuevos laboratorios especializados para la carrera de Atención Primaria en Salud. Estas modernas instalaciones cuentan con equipos de última generación que permitirán a nuestros estudiantes desarrollar habilidades prácticas esenciales para su formación profesional.\n\nLos nuevos laboratorios incluyen:\n- Laboratorio de Enfermería Básica\n- Laboratorio de Primeros Auxilios\n- Laboratorio de Farmacia\n- Sala de Simulación Clínica\n\nEsta inversión reafirma nuestro compromiso con la excelencia educativa y la formación integral de nuestros estudiantes.",
+      "fecha": "2025-09-20",
+      "autor": "Coordinación de Salud",
+      "categoria": "institucional",
+      "color_categoria": "#4CAF50",
+      "imagen": "assets/img/salud.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Estudiantes Destacan en Competencia Nacional",
+      "resumen": "Nuestros estudiantes obtuvieron el primer lugar en la competencia nacional de matemáticas, demostrando la excelencia académica del instituto.",
+      "contenido": "Los estudiantes del Instituto Nacional Walter Thilo Deininger han demostrado una vez más su excelencia académica al obtener el primer lugar en la Competencia Nacional de Matemáticas 2025.\n\nEste logro es el resultado del arduo trabajo de nuestros estudiantes y el compromiso de nuestros docentes en brindar una educación de calidad. La competencia contó con la participación de más de 200 instituciones educativas a nivel nacional.\n\nFelicitamos a todos los participantes y especialmente a nuestros ganadores por este importante reconocimiento.",
+      "fecha": "2025-11-20",
+      "autor": "Coordinación Académica",
+      "categoria": "academico",
+      "color_categoria": "#2196F3",
+      "imagen": "assets/img/Evento.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Renovación de Convenios con Empresas Locales",
+      "resumen": "El instituto renovó convenios de práctica profesional con importantes empresas de la región para beneficio de nuestros estudiantes.",
+      "contenido": "El Instituto Nacional Walter Thilo Deininger ha renovado y ampliado sus convenios de práctica profesional con más de 15 empresas importantes de la región. Estos convenios permitirán que nuestros estudiantes de las especialidades técnicas realicen sus prácticas profesionales en entornos reales de trabajo.\n\nLas empresas participantes incluyen:\n- Sector financiero y contable\n- Empresas de construcción y arquitectura\n- Centros de salud y clínicas\n- Empresas agroindustriales\n- Compañías de sistemas eléctricos\n\nEsta alianza estratégica fortalece la formación práctica de nuestros estudiantes y mejora sus oportunidades laborales.",
+      "fecha": "2025-08-15",
+      "autor": "Dirección General",
+      "categoria": "institucional",
+      "color_categoria": "#4CAF50",
+      "imagen": "assets/img/Evento.png"
+    }
+  ],
+  "eventos": [
+    {
+      "id": 1,
+      "titulo": "Charlas Informativas sobre Especialidades",
+      "descripcion": "Charlas informativas todos los sábados de octubre para conocer más sobre nuestras especialidades técnicas y académicas.",
+      "fecha": "2025-10-05",
+      "fecha_fin": "2025-10-26",
+      "hora": "9:00 AM - 11:00 AM",
+      "lugar": "Auditorio Principal",
+      "tipo": "informativo",
+      "color": "#2196F3",
+      "detalles": "Dirigido a estudiantes de noveno grado y padres de familia. Entrada gratuita."
+    },
+    {
+      "id": 2,
+      "titulo": "Feria Científica Anual 2026",
+      "descripcion": "Exposición de proyectos científicos y tecnológicos desarrollados por nuestros estudiantes.",
+      "fecha": "2026-05-20",
+      "hora": "8:00 AM - 4:00 PM",
+      "lugar": "Instalaciones del Instituto",
+      "tipo": "academico",
+      "color": "#4CAF50",
+      "detalles": "Participación de todas las especialidades. Abierto al público en general."
+    },
+    {
+      "id": 3,
+      "titulo": "Jornada de Orientación Vocacional",
+      "descripcion": "Sesiones de orientación para ayudar a los estudiantes a elegir su especialidad técnica.",
+      "fecha": "2026-01-15",
+      "hora": "10:00 AM - 12:00 PM",
+      "lugar": "Salón Multiusos",
+      "tipo": "orientacion",
+      "color": "#FF9800",
+      "detalles": "Dirigido a estudiantes de primer año. Incluye pruebas vocacionales."
+    },
+    {
+      "id": 4,
+      "titulo": "Festival Cultural 2026",
+      "descripcion": "Celebración anual con presentaciones artísticas, exposiciones y actividades culturales de todas las especialidades.",
+      "fecha": "2026-12-15",
+      "hora": "2:00 PM - 8:00 PM",
+      "lugar": "Campus del Instituto",
+      "tipo": "cultural",
+      "color": "#9C27B0",
+      "detalles": "Incluye presentaciones musicales, danzas, teatro, exposiciones de arte y muestra gastronómica."
+    },
+    {
+      "id": 5,
+      "titulo": "Torneo Deportivo Intercolegial",
+      "descripcion": "Competencia deportiva entre instituciones educativas de la región en múltiples disciplinas.",
+      "fecha": "2026-03-10",
+      "fecha_fin": "2026-03-15",
+      "hora": "8:00 AM - 5:00 PM",
+      "lugar": "Polideportivo del Instituto",
+      "tipo": "deportivo",
+      "color": "#E91E63",
+      "detalles": "Disciplinas: fútbol, baloncesto, voleibol, atletismo. Participación abierta a la comunidad."
+    }
+    
+  ]
+}

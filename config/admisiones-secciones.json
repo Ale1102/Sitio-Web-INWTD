@@ -1,0 +1,119 @@
+{
+  "fechas_importantes": [
+    {
+      "evento": "Charlas Informativas",
+      "fecha": "15-31 Octubre, 2025",
+      "lugar": "Auditorio Principal",
+      "detalles": "Todos los sábados de 9:00 AM a 11:00 AM. Conoce nuestras especialidades y resuelve tus dudas.",
+      "archivo": "assets/docs/programa-charlas-informativas-2026.pdf"
+    },
+    {
+      "evento": "Recepción de Documentos",
+      "fecha": "1-28 Febrero, 2026",
+      "lugar": "Oficina de Admisiones",
+      "detalles": "Lunes a viernes de 8:00 AM a 3:00 PM. Entrega completa de documentos requeridos.",
+      "archivo": "assets/docs/guia-entrega-documentos-2026.pdf"
+    },
+    {
+      "evento": "Examen de Admisión",
+      "fecha": "15 Marzo, 2026",
+      "lugar": "Instalaciones del Instituto",
+      "detalles": "8:00 AM - Presentarse con DUI o Carné de Minoridad. Duración: 3 horas.",
+      "archivo": "assets/docs/guia-examen-admision-2026.pdf"
+    },
+    {
+      "evento": "Publicación de Resultados",
+      "fecha": "10 Abril, 2026",
+      "lugar": "Página web y cartelera institucional",
+      "detalles": "A partir de las 2:00 PM. También se notificará vía correo electrónico."
+    },
+    {
+      "evento": "Proceso de Matrícula",
+      "fecha": "15-30 Abril, 2026",
+      "lugar": "Oficina de Registro Académico",
+      "detalles": "8:00 AM a 3:00 PM. Completar matrícula con documentos adicionales.",
+      "archivo": "assets/docs/requisitos-matricula-2026.pdf"
+    }
+  ],
+  "requisitos": [
+    {
+      "titulo": "Certificado de Noveno Grado",
+      "descripcion": "Original y copia del certificado de estudios de noveno grado o su equivalente.",
+      "icono": "fas fa-certificate"
+    },
+    {
+      "titulo": "Documento de Identidad",
+      "descripcion": "DUI o Carné de Minoridad vigente. Original y copia.",
+      "icono": "fas fa-id-card"
+      
+    },
+    {
+      "titulo": "Fotografías",
+      "descripcion": "4 fotografías tamaño cédula, recientes, fondo blanco.",
+      "icono": "fas fa-camera"
+     
+    },
+    {
+      "titulo": "Formulario de Inscripción",
+      "descripcion": "Formulario oficial completado y firmado por el aspirante y padre/madre o tutor.",
+      "icono": "fas fa-file-signature"
+     
+    },
+    {
+      "titulo": "Constancia de Conducta",
+      "descripcion": "Emitida por la institución educativa de procedencia.",
+      "icono": "fas fa-award"
+     
+    },
+    {
+      "titulo": "Examen Médico",
+      "descripcion": "Certificado médico general y exámenes de laboratorio básicos.",
+      "icono": "fas fa-heartbeat"
+    }
+  ],
+  "informacion_general": [
+    {
+      "titulo": "Guía Completa de Admisiones 2026",
+      "descripcion": "Documento completo con toda la información sobre el proceso de admisión, fechas, requisitos y procedimientos.",
+      "archivo": "assets/docs/guia-admisiones-2026.pdf"
+    }
+  ],
+  "especialidades": [
+    {
+      "nombre": "Bachillerato General",
+      "descripcion": "Formación integral que prepara para la educación superior en cualquier área del conocimiento.",
+      "duracion": "2 años",
+      "icono": "fas fa-book"
+    },
+    {
+      "nombre": "Administrativo Contable",
+      "descripcion": "Especialidad técnica en administración y contabilidad empresarial.",
+      "duracion": "3 años",
+      "icono": "fas fa-calculator"
+    },
+    {
+      "nombre": "Arquitectura",
+      "descripcion": "Formación técnica en diseño arquitectónico y construcción.",
+      "duracion": "3 años",
+      "icono": "fas fa-drafting-compass"
+    },
+    {
+      "nombre": "Sistemas Eléctricos",
+      "descripcion": "Especialidad técnica en instalaciones y sistemas eléctricos.",
+      "duracion": "3 años",
+      "icono": "fas fa-bolt"
+    },
+    {
+      "nombre": "Atención Primaria en Salud",
+      "descripcion": "Formación técnica en cuidados básicos de salud y primeros auxilios.",
+      "duracion": "3 años",
+      "icono": "fas fa-heartbeat"
+    },
+    {
+      "nombre": "Agroindustrias",
+      "descripcion": "Especialidad técnica en procesamiento y transformación de productos agrícolas.",
+      "duracion": "3 años",
+      "icono": "fas fa-seedling"
+    }
+  ]
+}
