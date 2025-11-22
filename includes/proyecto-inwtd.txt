@@ -1,0 +1,16 @@
+proyecto-inwtd/
+├── includes/                  # Componentes reutilizables
+│   ├── header.php             # Encabezado con menú global
+│   ├── footer.php             # Pie de página global
+│   ├── config.php             # Configuración global
+│   └── functions.php          # Funciones reutilizables
+├── assets/
+│   ├── css/                   # Estilos
+│   ├── js/                    # JavaScript
+│   └── img/                   # Imágenes
+├── pages/                     # Páginas específicas
+│   ├── nosotros.php
+│   ├── oferta-academica.php
+│   └── ...
+├── index.php                  # Página principal
+└── .htaccess                  # Configuración del servidor
